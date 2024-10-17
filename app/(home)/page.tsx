@@ -3,16 +3,15 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <main className="flex h-screen flex-col justify-center text-center">
-      <h1 className="mb-4 text-2xl font-bold">Hello World</h1>
+      <h1 className="mb-4 text-2xl font-bold">Bienvenido a Academic</h1>
       <p className="text-fd-muted-foreground">
-        You can open{' '}
+        Un sitio donde encontrarás documentación relacionada a la Ingeniería. Comienza en haciendo click en {' '}
         <Link
           href="/docs"
           className="text-fd-foreground font-semibold underline"
         >
           /docs
-        </Link>{' '}
-        and see the documentation.
+        </Link>{' '}.
       </p>
     </main>
   );
