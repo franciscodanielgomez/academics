@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 @import 'katex/dist/katex.min.css';
+
+.katex-small {
+    font-size: 0.6em; /* Cambia este valor al tamaño deseado */
+}
+
+.katex {
+       font-size: 0.7em; /* Ajusta el tamaño a tu preferencia */
+       line-height: 1.5; /* Ajusta la altura de línea para mejorar la legibilidad */
+}
